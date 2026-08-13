@@ -1,0 +1,7 @@
+{
+  "name": "Smart Study Planner",
+  "description": "AI Study Planner and Spaced Revision Scheduler for students with automatic daily schedules and exam countdowns",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
