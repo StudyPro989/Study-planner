@@ -17,6 +17,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForwardIos
+import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.AutoStories
 import androidx.compose.material.icons.filled.Calculate
 import androidx.compose.material.icons.filled.Computer
@@ -56,11 +57,11 @@ fun getSubjectIcon(name: String): ImageVector {
         lower.contains("math") -> Icons.Default.Calculate
         lower.contains("sci") -> Icons.Default.Science
         lower.contains("soc") || lower.contains("sst") || lower.contains("history") -> Icons.Default.Public
-        lower.contains("eng") -> Icons.Default.MenuBook
+        lower.contains("eng") -> Icons.AutoMirrored.Filled.MenuBook
         lower.contains("hin") || lower.contains("trans") -> Icons.Default.Translate
         lower.contains("san") -> Icons.Default.AutoStories
         lower.contains("it") || lower.contains("comp") || lower.contains("tech") -> Icons.Default.Computer
-        else -> Icons.Default.MenuBook
+        else -> Icons.AutoMirrored.Filled.MenuBook
     }
 }
 
